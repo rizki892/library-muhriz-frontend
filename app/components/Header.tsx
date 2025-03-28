@@ -14,8 +14,8 @@ export default function CustomHeader() {
         right: 0,
         height: 64,
         zIndex: 1000, // Agar selalu di atas
-        backgroundColor: "#001529",
-        color: "white",
+        backgroundColor: "#002B5B",
+        color: "#fff",
         padding: "0 20px",
       }}
     >

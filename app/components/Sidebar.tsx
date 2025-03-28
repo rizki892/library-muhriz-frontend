@@ -31,8 +31,11 @@ export default function Sidebar() {
 
   // Menu Sidebar
   const menuItems = (
-    <Menu theme="dark" mode="vertical" defaultSelectedKeys={["home"]}>
-      <Menu.Item key="home" icon={<HomeOutlined />}>
+    <Menu style={{
+      backgroundColor: "#002B5B", // Warna sidebar
+      color: "#fff",
+    }} mode="vertical" defaultSelectedKeys={["home"]}>
+      <Menu.Item key="home" icon={<HomeOutlined />} >
         <Link href="/">Home</Link>
       </Menu.Item>
       <Menu.Item key="books" icon={<BookOutlined />}>
@@ -78,7 +81,8 @@ export default function Sidebar() {
           theme="dark"
           width={200}
           style={{
-            background: "#001529",
+            background: "#003366",
+            color: "#fff",
             height: "100vh",
             position: "fixed",
             left: 0,
