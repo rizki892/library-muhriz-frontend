@@ -1,4 +1,3 @@
-// app/books/page.tsx
 "use client";
 
 import { Layout, Typography } from "antd";
@@ -9,11 +8,9 @@ const { Title } = Typography;
 
 export default function BooksPage() {
   return (
-    <Layout className="p-6 bg-white">
-      <Content>
-        <Title level={2}>Daftar Buku</Title>
-        <BookList />
-      </Content>
-    </Layout>
+    <Content style={{ padding: "20px", marginLeft: 200, marginTop: "64px", minHeight: "calc(100vh - 64px)", background: "#fff" }}>
+      <Title level={2}>Daftar Buku</Title>
+      <BookList />
+    </Content>
   );
 }
